@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;}
+ header h1{background-image: url('2042125.jpg') ;border:10px solid #fbbe28;font-family:border;color:#fbbe28;
+text-align: center;margin:0 30px;font-size: 150px;}
+
+@font-face {
+    font-family:border;
+    src: url('Chocolate\ Dipped\ Strawberry.ttf');
+}
+@font-face {
+    font-family: tanga;
+    src: url('Tangiang.otf');
+}
+html{background-color: #f5f5ef;background-image:url('1081011.jpg');}
+
+li {font-family: tanga;}
+.topmenu li {border-right:2px solid black;float:left;list-style-type: none;padding: 10px;font-size: 15px;background-color: #fbbe28;width:150px;text-align: center;}
+  a{text-decoration: none;color:black;display: block;}
+.topmenu{margin-left:400px;position:sticky;}
+.topmenu li:hover, a:hover{background-color: black;color: #f5f5ef;}
+.drpdwn li {background-color: #f5f5ef;}
+ .drpdwn li a:hover{color:#f5f5ef;background-color:black;}
+ li ul {display:none;}
+ li:hover .drpdwn{display:block;}
+.topmenu li:first-child {border-left: 2px solid black;}
+
+
+ .topic { background-color: #fbbe28;font-family: border;color:black;margin: 0px 100px;position: absolute;z-index: -1;}
+ .topic h1 {font-size: 50px;margin-bottom: 25px;background-color:red;text-align: center;color: #f5f5ef;}
+ .beartext {font-family: Arial, Helvetica, sans-serif;font-size: 12px;margin:2px 15px;margin-bottom:100px;padding:2px 0 0 5px;color:white;}
+.leftside {width:277px;height:470px;padding-bottom: 140px;float: left;}
+
+.leftside img{border: 10px solid black;padding:5px 10px;}
+.htext {border:10px solid black; font-size: 13px; padding: 15px; font-family:sans-serif; margin:80px 200px 100px 350px;background-color:#f5f5ef;display: block;color:black;}
